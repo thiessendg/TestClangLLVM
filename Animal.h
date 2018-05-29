@@ -6,5 +6,6 @@ public:
 	virtual ~Animal() = default;
 	virtual void speak() = 0;
 	virtual void showHappiness() = 0;
+    virtual void run() = 0;
 };
 

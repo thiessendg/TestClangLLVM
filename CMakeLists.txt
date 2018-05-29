@@ -10,4 +10,4 @@ set(CMAKE_CXX_COMPILER=C:/msys64/mingw64/bin/clang++.exe)
 #set(CMAKE_CXX_FLAGS -m32)
 set(CMAKE_CXX_FLAGS -m64)
 
-add_executable(TestClangLLVM main.cpp Animal.cpp Animal.h Cat.cpp Cat.h Dog.cpp Dog.h Rabbit.cpp Rabbit.h)
+add_executable(TestClangLLVM main.cpp Animal.h Cat.cpp Cat.h Dog.cpp Dog.h Rabbit.cpp Rabbit.h)

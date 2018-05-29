@@ -22,3 +22,8 @@ void Dog::showHappiness()
 {
 	std::cout << "wagging tail" << std::endl;
 }
+
+void Dog::run()
+{
+	std::cout << "chasing the cat or the rabbit!" << std::endl;
+}

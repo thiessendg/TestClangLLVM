@@ -8,5 +8,6 @@ public:
 	virtual ~Dog() = default;
 	void speak() override;
 	void showHappiness() override;
+	void run() override ;
 };
 

@@ -30,6 +30,7 @@ int main() {
     std::unique_ptr<Animal> upMyPet(&myDog); //ptr to Animal abstract class set to address of myDog
     upMyPet->speak();
     upMyPet->showHappiness();
+    upMyPet->run();
 
     ShowOff(upMyPet);
 
@@ -38,6 +39,7 @@ int main() {
     upMyPet.reset(&myCat);
     upMyPet->speak();
     upMyPet->showHappiness();
+    upMyPet->run();
 
     ShowOff(upMyPet);
 
@@ -46,6 +48,7 @@ int main() {
     upMyPet.reset(&myRabbit);
     upMyPet->speak();
     upMyPet->showHappiness();
+    upMyPet->run();
 
     ShowOff(upMyPet);
     upMyPet.release();
@@ -54,16 +57,22 @@ int main() {
     Animal *pMyNewPet = &myDog;
     pMyNewPet->speak();
     pMyNewPet->showHappiness();
+    pMyNewPet->run();
+
     pMyNewPet = nullptr;
 
     pMyNewPet = &myCat;
     pMyNewPet->speak();
     pMyNewPet->showHappiness();
+    pMyNewPet->run();
+
     pMyNewPet = nullptr;
 
     pMyNewPet = &myRabbit;
     pMyNewPet->speak();
     pMyNewPet->showHappiness();
+    pMyNewPet->run();
+
     pMyNewPet = nullptr;
 
     auto student0 = get_student(0);

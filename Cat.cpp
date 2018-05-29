@@ -20,3 +20,9 @@ void Cat::showHappiness()
 {
 	std::cout << "puuuuurrrrrr" << std::endl;
 }
+
+
+void Cat::run()
+{
+	std::cout << "chasing the rabbit or running from the dog!" << std::endl;
+}
