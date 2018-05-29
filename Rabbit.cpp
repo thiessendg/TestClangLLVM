@@ -1,14 +1,14 @@
 #include "Rabbit.h"
 #include <iostream>
 
-Rabbit::Rabbit()
+/*Rabbit::Rabbit()
 {
 }
 
 
 Rabbit::~Rabbit()
 {
-}
+}*/
 
 void Rabbit::speak()
 {
